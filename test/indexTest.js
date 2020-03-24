@@ -1,13 +1,13 @@
-describe("breakfast", () => {
-  it("has a class of breakfast", () => {
-    expect(new Breakfast()).to.be.an.instanceof(Breakfast);
-  })
-  it("creates a new breakfast with the correct parameters", () => {
-    bfast = new Breakfast('eggs', 'juice')
-    expect(bfast.food).to.equal('eggs')
-    expect(bfast.drink).to.equal('juice')
-  })
-})
+// describe("breakfast", () => {
+//   it("has a class of breakfast", () => {
+//     expect(new Breakfast()).to.be.an.instanceof(Breakfast);
+//   })
+//   it("creates a new breakfast with the correct parameters", () => {
+//     bfast = new Breakfast('eggs', 'juice')
+//     expect(bfast.food).to.equal('eggs')
+//     expect(bfast.drink).to.equal('juice')
+//   })
+// })
 
 describe("lunch", () => {
   it("has a class of lunch", () => {
